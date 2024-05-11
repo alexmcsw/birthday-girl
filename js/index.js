@@ -1,4 +1,4 @@
-import {Wheel} from '../../../dist/spin-wheel-esm.js';
+import {Wheel} from 'https://cdn.jsdelivr.net/npm/spin-wheel@4.3.2/dist/spin-wheel-esm.js';
 
 window.onload = () => {
 
