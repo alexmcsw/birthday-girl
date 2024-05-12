@@ -3,13 +3,21 @@ import {Wheel} from 'https://cdn.jsdelivr.net/npm/spin-wheel@4.3.2/dist/spin-whe
 window.onload = () => {
 
   const props = {
+    image: './img/example-0-image.svg',
+    overlayImage: './img/example-0-overlay.svg',
     items: [
       {
-        label: 'one',
+        label: 'lord of the rings',
       },
       {
-        label: 'two',
-      }
+        label: 'upsidedown',
+      },
+      {
+        label: 'hotdog universe from EEAO',
+      },
+      {
+        label: 'idea 4',
+      },
     ],
   };
 
