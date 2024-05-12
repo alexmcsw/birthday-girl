@@ -15,6 +15,9 @@ window.onload = () => {
       {
         label: 'three',
       },
+      {
+        label: 'four',
+      },
     ],
   };
 
