@@ -1,3 +1,4 @@
+
 .container {
   position: absolute;
   top: 50%;
@@ -5,39 +6,24 @@
   transform: translateX(-50%) translateY(-50%);
 }
 
-.message {text-align: center;
-}
 
-@keyframes bang {
-  from {
-    transform: translate3d(0,0,0);
-    opacity: 1;
-  }
-}
-
-body {
-  background: #dc90ad;
-  display: flex;
-}
-
-button1 {
-  width: 240px;
-  font-size: 1.2em;
+.button {
+  width: 1200px;
+  height: 100px;
+  font-size: 4.2em;
   margin:150px auto 0;
   text-align: center;
   padding: 10px 0;
   cursor: pointer;
   position: relative;
-  color: #333;
-  i {
-    animation: bang 750ms ease-out forwards;
-    position: absolute;
-    display: block;
-    left: 50%;
-    top: 0;
-    width: 3px;
-    height: 8px;
-    opacity: 0;
-  }
+  color: #eae7e7;
+  background-color: rgb(226, 43, 128);
+  border: 2px solid #eae7e7;
+  font-family: fantasy;
+}
 
+.message {
+  text-align: center;
+  font-size: 2.2em;
+  font-family: monospace
 }
