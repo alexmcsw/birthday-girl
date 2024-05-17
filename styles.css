@@ -1,4 +1,4 @@
-.button {
+.btnSearch {
     background-color: #04AA6D; /* Green */
     border: none;
     color: white;
@@ -11,7 +11,17 @@
     transition-duration: 0.4s;
   }
   
-  .button:hover {
-    background-color: #04AA6D; /* Green */
-    color: white;
-  }
+.button:hover {
+  background-color: #04AA6D; /* Green */
+  color: white;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.message {text-align: center;
+}
