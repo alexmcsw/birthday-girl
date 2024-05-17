@@ -6,9 +6,19 @@
   transform: translateX(-50%) translateY(-50%);
 }
 
+body {
+  color: #eae7e7;
+  background-color: rgb(226, 43, 128);
+}
+
+h1 {
+  color: #eae7e7;
+  font-family: monospace;
+  text-align: center;
+}
 
 .button {
-  width: 1200px;
+  width: 600px;
   height: 100px;
   font-size: 4.2em;
   margin:150px auto 0;
