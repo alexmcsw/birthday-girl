@@ -1,13 +1,5 @@
-function GetValue()
-{
-    var myarray= new Array("hi","bye","hello");
-    var random = myarray[Math.floor(Math.random() * myarray.length)];
-   document.getElementById("message").innerHTML=random;
-}
-
-
 const confettiAmount = 100;
-let btnClick = document.querySelector('button1');
+let btnClick = document.querySelector('button');
 let btnHover = document.querySelector('.hoverme');
 
 btnClick.onclick = () => throwConfetti(btnClick);
