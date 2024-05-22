@@ -13,8 +13,9 @@ body {
 
 h1 {
   color: #eae7e7;
-  font-family: monospace;
+  font-family: "Prompt";
   text-align: center;
+  font-style: bold;
 }
 
 .button {
@@ -29,14 +30,15 @@ h1 {
   color: #eae7e7;
   background-color: #EB4796;
   border: 2px solid #eae7e7;
-  font-family: fantasy;
+  font-family: "Prompt";
   position: relative;
+  font-style: bold;
 }
 
 .message {
   text-align: center;
   font-size: 2.2em;
-  font-family: monospace;
+  font-family: "Prompt";
   width: 600px;
   height: 200px;
   padding: 100px 0;

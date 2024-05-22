@@ -8,8 +8,9 @@ function GetValue()
         "you in 50 years",
         "you 20 years ago",
         "the last video game/movie/book you played/watched/read",
-        "Lord of the Rings if the hobbits slayed"
-
+        "Lord of the Rings if the hobbits slayed",
+        "body swap (partner, parent, etc)",
+        "utopia"
 
     );
     var random = myarray[Math.floor(Math.random() * myarray.length)];
