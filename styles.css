@@ -33,6 +33,7 @@ h1 {
   font-family: "Prompt";
   position: relative;
   font-style: bold;
+  line-height: 50px;
 }
 
 .message {
